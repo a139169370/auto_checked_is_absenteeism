@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+                   version="4.0">
+    <!--javamelody配置-->
+    <filter>
+        <filter-name>monitoring</filter-name>
+        <filter-class>net.bull.javamelody.MonitoringFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>monitoring</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <listener>
+        <listener-class>net.bull.javamelody.SessionListener</listener-class>
+    </listener>
+
+    <!--在服务器启动时自动调用servlet-->
+    <servlet>
+        <servlet-name>AutoCheckedIsAbsenteeism</servlet-name>
+        <servlet-class>Util.AutoCheckedIsAbsenteeism</servlet-class>
+        <!-- 此处指定加载顺序为2,表明还有优先级更高的Servlet要先执行 -->
+        <!-- 当值为 0 或者大于 0 时，表示容器在应用启动时就加载这个 servlet。值越小，启动优先级越高；-->
+        <!-- 当是一个负数时或者没有指定时，表示该 servlet 被调用时才加载。-->
+        <load-on-startup>2</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AutoCheckedIsAbsenteeism</servlet-name>
+        <url-pattern>/AutoCheckedIsAbsenteeism</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

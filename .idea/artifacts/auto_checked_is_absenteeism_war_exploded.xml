@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="auto_checked_is_absenteeism:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="auto_checked_is_absenteeism/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="auto_checked_is_absenteeism" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
