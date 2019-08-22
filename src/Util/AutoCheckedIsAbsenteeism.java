@@ -8,10 +8,13 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import javax.servlet.http.HttpServlet;
+import javax.xml.crypto.Data;
+import java.text.MessageFormat;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 
-/*
+/**
  *		Created by IntelliJ IDEA.
  *		User:龙猫
  *		Date: 2019/4/15
@@ -31,14 +34,15 @@ public class AutoCheckedIsAbsenteeism extends HttpServlet{
 		try {
 			super.init();
 
-			Timer t=new Timer();
-			t.schedule(new MyTimer(),0,TOKEN_CHECKED_TIME);
+			Timer t = new Timer();
+			t.schedule(new EveryDayTimer(), 0);
 
 		}catch (Throwable t){
 			logger.error(t.getMessage(), t);
 		}
 	}
 	public class MyTimer extends TimerTask {
+		@Override
 		public void run() {
 			try {
 				Database database = new Database();
@@ -56,7 +60,6 @@ public class AutoCheckedIsAbsenteeism extends HttpServlet{
 				logger.info("获取需要检查考勤的学号");
 
 				Map<String, List<String>> map = database.queryNeedCheckedUsernameForTableUsers();
-//				database.close();
 				List<String> username = map.get("username");
 				List<String> phone = map.get("phone");
 
@@ -117,6 +120,69 @@ public class AutoCheckedIsAbsenteeism extends HttpServlet{
 			}
 		}catch (Throwable t){
 			logger.error(t.getMessage(), t);
+		}
+	}
+
+	/**
+	 * 每天0点添加定时任务
+	 */
+	public class EveryDayTimer extends TimerTask{
+		@Override
+		public void run() {
+			//运行检查程序的时间，二维数组第一个数为小时，第二个为分钟
+			int[][] runTime = {{9,15}, {10,25},
+								{10,55}, {12,05},
+								{14,15}, {15,30},
+								{15,45}, {16,55},
+								{17,15}, {18,25},
+								{19,15}, {20,25},
+								{20,45}, {21,55}
+			};
+
+			try {
+
+				//休眠5S
+				Thread.sleep(5 * 1000);
+
+				//获取当前时间
+				Date nowTime = new Date();
+				SimpleDateFormat dateFormat = new SimpleDateFormat ("HH:mm");
+				String nowString = dateFormat.format(nowTime);
+				Date now = dateFormat.parse(nowString);
+
+				for (int[] needCheckTime : runTime){
+					//将数组内时间转化为Date类型
+					String timeFromArray = MessageFormat.format("{0}:{1}", needCheckTime[0], needCheckTime[1]);
+					Date arrayTime = dateFormat.parse(timeFromArray);
+
+					if(now.after(arrayTime)){
+						//如果当前时间在数组时间之后，则跳过
+						continue;
+					}else {
+						//如果数组时间在当前时间之后，则加入任务
+						Calendar calendar = Calendar.getInstance();
+						calendar.set(Calendar.HOUR_OF_DAY, needCheckTime[0]);
+						calendar.set(Calendar.MINUTE, needCheckTime[1]);
+						Date time = calendar.getTime();
+						Timer t = new Timer();
+						t.schedule(new MyTimer(), time);
+						logger.info(MessageFormat.format("设置定时任务，设置任务时间为{0}", dateFormat.format(time)));
+					}
+				}
+
+				//设置0点的时候执行
+				Calendar calendar = Calendar.getInstance();
+				calendar.set(Calendar.HOUR_OF_DAY, 23);
+				calendar.set(Calendar.MINUTE, 59);
+				calendar.set(Calendar.SECOND, 59);
+				Date date = calendar.getTime();
+
+				Timer t = new Timer();
+				t.schedule(new EveryDayTimer(), date);
+				logger.info("设置0点定时任务；");
+			}catch (Throwable t){
+				logger.error(t.getMessage(), t);
+			}
 		}
 	}
 }

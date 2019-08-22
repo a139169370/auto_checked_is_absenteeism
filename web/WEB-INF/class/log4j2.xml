@@ -18,7 +18,7 @@
 
             <!--输出日志的格式-->
 
-            <PatternLayout pattern="[%d{HH:mm:ss:SSS}] [%p] - %l - %m%n"/>
+            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss:SSS}] [%p] - %l - %m%n"/>
 
         </console>
 
@@ -26,7 +26,7 @@
 
         <File name="log" fileName="logs/auto_checked_is_absenteeism/test.log" append="false">
 
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
 
         </File>
 
@@ -40,7 +40,7 @@
 
             <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY"/>
 
-            <PatternLayout pattern="[%d{HH:mm:ss:SSS}] [%p] - %l - %m%n"/>
+            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss:SSS}] [%p] - %l - %m%n"/>
 
             <Policies>
 
@@ -58,7 +58,7 @@
 
             <ThresholdFilter level="warn" onMatch="ACCEPT" onMismatch="DENY"/>
 
-            <PatternLayout pattern="[%d{HH:mm:ss:SSS}] [%p] - %l - %m%n"/>
+            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss:SSS}] [%p] - %l - %m%n"/>
 
             <Policies>
 
@@ -80,7 +80,7 @@
 
             <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
 
-            <PatternLayout pattern="[%d{HH:mm:ss:SSS}] [%p] - %l - %m%n"/>
+            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss:SSS}] [%p] - %l - %m%n"/>
 
             <Policies>
 

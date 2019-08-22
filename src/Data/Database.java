@@ -55,6 +55,8 @@ public class Database {
 			}
 			map.put("username", username);
 			map.put("phone", phone);
+			resultSet.close();
+			preparedStatement.close();
 			connection.close();
 		}catch (Throwable t){
 			logger.error(t.getMessage(), t);
@@ -84,6 +86,8 @@ public class Database {
 				list.add(0);
 				list.add(0);
 			}
+			resultSet.close();
+			preparedStatement.close();
 			connection.close();
 		}catch (Throwable t){
 			logger.error(t.getMessage(), t);
@@ -122,6 +126,8 @@ public class Database {
 				preparedStatement2.setInt(4, list.get(2));
 				preparedStatement2.executeUpdate();
 			}
+			resultSet.close();
+			preparedStatement.close();
 			connection.close();
 		}catch (Throwable t){
 			logger.error(t.getMessage(), t);
@@ -151,6 +157,8 @@ public class Database {
 			map.put("username", username);
 			map.put("password", password);
 			map.put("phone", phone);
+			resultSet.close();
+			preparedStatement.close();
 			connection.close();
 		}catch (Throwable t){
 			logger.error(t.getMessage(), t);
@@ -176,6 +184,8 @@ public class Database {
 			}else {
 				return null;
 			}
+			resultSet.close();
+			preparedStatement.close();
 			connection.close();
 		}catch (Throwable t){
 			logger.error(t.getMessage(), t);
@@ -201,6 +211,8 @@ public class Database {
 			}else {
 				return null;
 			}
+			resultSet.close();
+			preparedStatement.close();
 			connection.close();
 		}catch (Throwable t){
 			logger.error(t.getMessage(), t);
@@ -220,21 +232,26 @@ public class Database {
 			PreparedStatement queryExistStatement = connection.prepareStatement(queryExistSql);
 			queryExistStatement.setString(1,username);
 			ResultSet resultSet = queryExistStatement.executeQuery();
-			if (resultSet.next()){			//如果有，则更新绑定状态
+			if (resultSet.next()){
+				//如果有，则更新绑定状态
 				String sql = "update user_messages set studentid = ?,gzcode = ?,is_delete = 0 where username = ?";
 				PreparedStatement preparedStatement = connection.prepareStatement(sql);
 				preparedStatement.setString(1, studentID);
 				preparedStatement.setString(2, gzcode);
 				preparedStatement.setString(3, username);
 				preparedStatement.executeUpdate();
-			}else {							//没有则执行插入
+				preparedStatement.close();
+			}else {
+				//没有则执行插入
 				String sql = "insert user_messages values(?,?,?,0)";
 				PreparedStatement preparedStatement = connection.prepareStatement(sql);
 				preparedStatement.setString(1, username);
 				preparedStatement.setString(2, studentID);
 				preparedStatement.setString(3, gzcode);
 				preparedStatement.executeUpdate();
+				preparedStatement.close();
 			}
+			resultSet.close();
 			connection.close();
 		}catch (Throwable t){
 			logger.error(t.getMessage(), t);

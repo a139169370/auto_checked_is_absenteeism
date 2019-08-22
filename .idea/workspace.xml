@@ -6,7 +6,31 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9c5ef3-24b8-4a53-bf6c-39a4cfb27d01" name="Default" comment="" />
+    <list default="true" id="3a9c5ef3-24b8-4a53-bf6c-39a4cfb27d01" name="Default" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Config/MessageConfig.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war/auto_checked_is_absenteeism_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war/auto_checked_is_absenteeism_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war_exploded/WEB-INF/class/Util/AutoCheckedIsAbsenteeism$MyTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war_exploded/WEB-INF/class/Util/AutoCheckedIsAbsenteeism$MyTimer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war_exploded/WEB-INF/class/Util/AutoCheckedIsAbsenteeism.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war_exploded/WEB-INF/class/Util/AutoCheckedIsAbsenteeism.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war_exploded/WEB-INF/class/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war_exploded/WEB-INF/class/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war_exploded/WEB-INF/classes/Data/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war_exploded/WEB-INF/classes/Data/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war_exploded/WEB-INF/classes/Util/AutoCheckedIsAbsenteeism$MyTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war_exploded/WEB-INF/classes/Util/AutoCheckedIsAbsenteeism$MyTimer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war_exploded/WEB-INF/classes/Util/AutoCheckedIsAbsenteeism.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war_exploded/WEB-INF/classes/Util/AutoCheckedIsAbsenteeism.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war_exploded/WEB-INF/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/auto_checked_is_absenteeism_war_exploded/WEB-INF/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Config/MessageConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/MessageConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/AutoCheckedIsAbsenteeism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/AutoCheckedIsAbsenteeism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/QueryAttendance/QueryAttendance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/QueryAttendance/QueryAttendance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/class/Data/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/class/Data/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/class/Util/AutoCheckedIsAbsenteeism$MyTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/class/Util/AutoCheckedIsAbsenteeism$MyTimer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/class/Util/AutoCheckedIsAbsenteeism.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/class/Util/AutoCheckedIsAbsenteeism.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/class/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/class/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.0-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.9-bin.jar" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,35 +44,8 @@
       <file leaf-file-name="AutoCheckedIsAbsenteeism.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Util/AutoCheckedIsAbsenteeism.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-330">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j2.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/log4j2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="121" selection-start-line="121" selection-end-line="121" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryAttendance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Util/QueryAttendance/QueryAttendance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3840">
-              <caret line="141" column="39" selection-start-line="141" selection-start-column="39" selection-end-line="141" selection-end-column="39" />
+            <state relative-caret-position="3030">
+              <caret line="101" column="68" selection-start-line="101" selection-start-column="68" selection-end-line="101" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,13 +53,65 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j2.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2580">
+              <caret line="86" column="44" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryAttendance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Util/QueryAttendance/QueryAttendance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Config/MessageConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="REANME.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/REANME.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CheckedUserUsernamePasswordAndClimbStudentID.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Util/CheckedAndAddStudentID/CheckedUserUsernamePasswordAndClimbStudentID.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="109" column="24" lean-forward="true" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+            <state relative-caret-position="3510">
+              <caret line="117" column="25" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1158#1174#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,8 +120,8 @@
       <file leaf-file-name="QueryDataToLogin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Util/CheckedAndAddStudentID/QueryDataToLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+            <state relative-caret-position="120">
+              <caret line="12" selection-start-line="12" selection-end-line="19" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -80,8 +129,16 @@
       <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Data/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7230">
-              <caret line="255" column="39" selection-start-line="255" selection-start-column="39" selection-end-line="255" selection-end-column="39" />
+            <state relative-caret-position="831">
+              <caret line="151" column="37" selection-start-line="151" selection-start-column="37" selection-end-line="151" selection-end-column="37" />
+              <folding>
+                <element signature="e#1019#1027#0" expanded="true" />
+                <element signature="e#1067#1075#0" expanded="true" />
+                <element signature="e#2000#2009#0" expanded="true" />
+                <element signature="e#4664#4672#0" expanded="true" />
+                <element signature="e#4715#4723#0" expanded="true" />
+                <element signature="e#4763#4771#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,11 +146,8 @@
       <file leaf-file-name="QcloudSmsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Util/SendMessageText/QcloudSmsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2310">
-              <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -125,22 +179,25 @@
       <replace>1 MB</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/QueryAttendance/QueryAttendance.java" />
         <option value="$PROJECT_DIR$/src/Config/receiveWechatContent.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/class/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/Util/SendMessageText/QcloudSmsTest.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/Config/MessageConfig.java" />
         <option value="$PROJECT_DIR$/REANME.md" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/class/log4j.properties" />
         <option value="$PROJECT_DIR$/src/Util/QueryAttendance/QueryAttendance.java" />
         <option value="$PROJECT_DIR$/src/Util/CheckedAndAddStudentID/QueryDataToLogin.java" />
-        <option value="$PROJECT_DIR$/src/Util/SendMessageText/QcloudSmsTest.java" />
+        <option value="$PROJECT_DIR$/src/Util/CheckedAndAddStudentID/CheckedUserUsernamePasswordAndClimbStudentID.java" />
         <option value="$PROJECT_DIR$/src/Data/Database.java" />
         <option value="$PROJECT_DIR$/src/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/Util/AutoCheckedIsAbsenteeism.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/Util/CheckedAndAddStudentID/CheckedUserUsernamePasswordAndClimbStudentID.java" />
       </list>
     </option>
   </component>
@@ -179,8 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,7 +259,7 @@
               <item name="auto_checked_is_absenteeism" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
               <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="auto_checked_is_absenteeism_war" type="462c0819:PsiDirectoryNode" />
+              <item name="auto_checked_is_absenteeism_war_exploded" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto_checked_is_absenteeism" type="b2602c69:ProjectViewProjectNode" />
@@ -266,15 +321,17 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring/AutoTakeLessons" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -287,8 +344,8 @@
       <recent name="QueryAttendance" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Work\java\auto_checked_is_absenteeism\src" />
       <recent name="E:\Work\java\auto_checked_is_absenteeism\web\WEB-INF\lib" />
+      <recent name="E:\Work\java\auto_checked_is_absenteeism\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -450,11 +507,41 @@
       <workItem from="1556332827769" duration="9158000" />
       <workItem from="1556373553221" duration="146000" />
       <workItem from="1556373733651" duration="3740000" />
+      <workItem from="1556423030824" duration="720000" />
+      <workItem from="1556465950772" duration="2503000" />
+      <workItem from="1556679970703" duration="1967000" />
+      <workItem from="1557382000214" duration="317000" />
+      <workItem from="1557382536076" duration="150000" />
+      <workItem from="1557383053663" duration="23000" />
+      <workItem from="1558097768161" duration="350000" />
+      <workItem from="1558098209197" duration="720000" />
+      <workItem from="1558143549464" duration="734000" />
+      <workItem from="1559721266741" duration="13000" />
+      <workItem from="1560052198383" duration="558000" />
+      <workItem from="1560783971731" duration="1323000" />
+      <workItem from="1560820613503" duration="875000" />
+      <workItem from="1565321770982" duration="7730000" />
+      <workItem from="1565415821510" duration="2116000" />
+      <workItem from="1565432810006" duration="288000" />
+      <workItem from="1565499794361" duration="155000" />
+      <workItem from="1565671903011" duration="1677000" />
+      <workItem from="1565855543524" duration="959000" />
+      <workItem from="1566017636817" duration="14000" />
+      <workItem from="1566017664000" duration="15000" />
+      <workItem from="1566017724476" duration="35000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;提交MessageConfig类&quot;">
+      <created>1556680294618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556680294618</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45097000" />
+    <option name="totallyTimeSpent" value="68339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -465,67 +552,73 @@
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32943678" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="MyBatis Log" order="13" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.51222104" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37340426" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32943678" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4410202" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.234375" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32943678" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287234" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="14" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32943678" />
-      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32943678" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="17" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4410202" />
-      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Spring" order="15" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.4410202" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32943678" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32943678" />
+      <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1875" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3287234" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Message" order="2" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.51222104" />
+      <window_info anchor="bottom" id="MyBatis Log" order="0" />
+      <window_info anchor="bottom" id="Tail" order="1" />
+      <window_info active="true" anchor="bottom" id="Debug" order="5" visible="true" weight="0.4648936" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,29 +627,20 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;提交MessageConfig类&quot;" />
+    <MESSAGE value="更新REANME.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新REANME.md" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="32" />
+      <option name="time" value="33" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Data/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/AutoCheckedIsAbsenteeism.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="71" column="75" selection-start-line="71" selection-start-column="75" selection-end-line="71" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/REANME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -578,9 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -640,9 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,9 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="18" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,9 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -805,16 +877,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Config/receiveWechatContent.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/class/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/REANME.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -822,75 +884,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Config/MessageConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/CheckedAndAddStudentID/QueryDataToLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+    <entry file="file://$PROJECT_DIR$/REANME.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Util/SendMessageText/QcloudSmsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/log4j-api-2.11.2.jar!/Log4j-charsets.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/CheckedAndAddStudentID/QueryDataToLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" selection-start-line="12" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../softwares/jdk/src.zip!/java/net/DualStackPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="282" column="22" selection-start-line="282" selection-start-column="22" selection-end-line="282" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2580">
+          <caret line="86" column="44" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/AutoCheckedIsAbsenteeism.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3030">
+          <caret line="101" column="68" selection-start-line="101" selection-start-column="68" selection-end-line="101" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/QueryAttendance/QueryAttendance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/CheckedAndAddStudentID/CheckedUserUsernamePasswordAndClimbStudentID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3510">
+          <caret line="117" column="25" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1158#1174#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Data/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7230">
-          <caret line="255" column="39" selection-start-line="255" selection-start-column="39" selection-end-line="255" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/QueryAttendance/QueryAttendance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3840">
-          <caret line="141" column="39" selection-start-line="141" selection-start-column="39" selection-end-line="141" selection-end-column="39" />
+        <state relative-caret-position="831">
+          <caret line="151" column="37" selection-start-line="151" selection-start-column="37" selection-end-line="151" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1019#1027#0" expanded="true" />
+            <element signature="e#1067#1075#0" expanded="true" />
+            <element signature="e#2000#2009#0" expanded="true" />
+            <element signature="e#4664#4672#0" expanded="true" />
+            <element signature="e#4715#4723#0" expanded="true" />
+            <element signature="e#4763#4771#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j2.xml">
+    <entry file="file://$PROJECT_DIR$/src/Config/MessageConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/AutoCheckedIsAbsenteeism.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/CheckedAndAddStudentID/CheckedUserUsernamePasswordAndClimbStudentID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="109" column="24" lean-forward="true" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="630">
+          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -900,7 +991,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>auto_checked_is_absenteeism:war</last-edited>
+          <last-edited>auto_checked_is_absenteeism:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -953,7 +1044,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
